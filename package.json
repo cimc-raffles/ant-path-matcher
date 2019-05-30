@@ -1,0 +1,22 @@
+{
+  "name": "ant-path-matcher",
+  "version": "0.0.1",
+  "description": "An implementation for Ant-style path patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ant","path","matcher"],
+  "author": "it@cimc-raffles.com",
+  "license": "MIT",
+  "homepage": "https://github.com/cimc-raffles/ant-path-matcher.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cimc-raffles/ant-path-matcher.git"
+  },
+  "dependencies": {
+    "string-builder": "^0.1.6",
+    "xregexp": "^4.2.4",
+    "xregexp-quotemeta": "^1.0.4"
+  }
+}
