@@ -5,10 +5,10 @@
   "description": "An implementation for Ant-style path patterns",
   "main": "./dist/cjs/main.cjs",
   "module": "./dist/esm/main.js",
-  "types": "./dist/types/main.d.ts",
+  "types": "./dist/types/lib/main.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/types/main.d.ts",
+      "types": "./dist/types/lib/main.d.ts",
       "import": "./dist/esm/main.js",
       "require": "./dist/cjs/main.cjs"
     },
