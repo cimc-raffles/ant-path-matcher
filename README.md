@@ -1,8 +1,5 @@
 ## Ant-style Path Matcher
 
-Fork of unmaintained CommonJS [ant-path-matcher](https://github.com/cimc-raffles/ant-path-matcher/blob/master/index.js).
-Test cases borrowed from [@howiefh/ant-path-matcher](https://github.com/howiefh/ant-path-matcher).
-
 An implementation for Ant-style path patterns.  
 Part of this mapping code has been kindly borrowed from [Apache Ant](https://ant.apache.org) and [Spring Framework](https://springframework.org).
 

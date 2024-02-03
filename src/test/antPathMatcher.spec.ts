@@ -6,6 +6,7 @@ beforeEach(() => {
   pathMatcher = AntPathMatcher();
 });
 
+// Test cases borrowed from [@howiefh/ant-path-matcher](https://github.com/howiefh/ant-path-matcher).
 const SCENARIOS = [
   // test exact matching
   ["test", "test", true],

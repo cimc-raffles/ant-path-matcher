@@ -1,6 +1,6 @@
 {
-  "name": "@maxbilbow/ant-path-matcher",
-  "version": "0.0.0-rc.3",
+  "name": "ant-path-matcher",
+  "version": "0.1.0-rc",
   "type": "module",
   "description": "An implementation for Ant-style path patterns",
   "main": "./dist/cjs/main.cjs",
@@ -40,9 +40,6 @@
     "type": "git",
     "url": "https://github.com/cimc-raffles/ant-path-matcher.git"
   },
-  "dependencies": {
-    "xregexp": "^5.1.1"
-  },
   "devDependencies": {
     "@tsconfig/node-lts": "^20.1.1",
     "@types/jest": "^29.5.12",
@@ -56,7 +53,8 @@
     "prettier": "^3.2.4",
     "ts-jest": "^29.1.2",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "xregexp": "^5.1.1"
   },
   "lint-staged": {
     "*.{ts,js,cjs,json,md}": [
