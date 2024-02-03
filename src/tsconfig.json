@@ -1,11 +1,12 @@
 {
   "extends": ["@tsconfig/node-lts"],
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "rootDir": ".",
     "declarationDir": "../dist/types",
     "emitDeclarationOnly": true,
+    "verbatimModuleSyntax": true,
     "newLine": "LF",
     "declaration": true,
     "sourceMap": true,
