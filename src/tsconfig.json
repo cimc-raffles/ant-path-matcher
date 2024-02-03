@@ -1,0 +1,17 @@
+{
+  "extends": ["@tsconfig/node-lts"],
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": ".",
+    "declarationDir": "../dist/types",
+    "emitDeclarationOnly": true,
+    "newLine": "LF",
+    "declaration": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "isolatedModules": true,
+    "strict": true,
+  },
+  "include": ["**/*.ts"],
+}
