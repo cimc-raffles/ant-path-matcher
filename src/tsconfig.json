@@ -1,0 +1,18 @@
+{
+  "extends": ["@tsconfig/node-lts"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "outDir": "../dist/esm",
+    "declarationDir": "../dist/types",
+    "verbatimModuleSyntax": true,
+    "newLine": "LF",
+    "declaration": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "isolatedModules": true,
+    "strict": true,
+  },
+  "include": ["**/*.ts"],
+}
